@@ -1,11 +1,10 @@
 # Lab: Sign up Form
 
-This lab uses what students have learned so far to create a sign up form using `reactstrap`
+This lab uses what students have learned so far to create a sign up form using `reactstrap`. In the starter code, you'll find a `create-react-app` project with `reactstrap` installed and a linter fully setup to help stop bugs in their tracks!
 
 **Teaching Tip**:
 
 
-Assign it to individuals who are caught up with their work and looking for a further challenge. Or, do it with the whole class if time permits and you feel that students would benefit from it.
 
 </aside>
 
@@ -16,16 +15,18 @@ Assign it to individuals who are caught up with their work and looking for a fur
 Students should be familiar with:
 
 -   React and React components
+-   File tree and component structure
 -   State and props
 -   The component life-cycle methods
 -   Working with an API
 
 ## Instructions
 
-1.  Use `create-react-app` to create a new project
-2.  Install `reactstrap` following the instructions [here](https://github.com/reactstrap/reactstrap).
-
-1.  Make a pull request to submit your work.
+1.  Clone this repo
+2.  `npm i`
+3.  `npm start`
+4.  Complete requirements!
+5.  Make a pull request to submit your work.
 
 ## Requirements
 
