@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Lab: Sign up Form
 
-## Available Scripts
+This lab uses what students have learned so far to create a sign up form using `reactstrap`
 
-In the project directory, you can run:
+**Teaching Tip**:
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Assign it to individuals who are caught up with their work and looking for a further challenge. Or, do it with the whole class if time permits and you feel that students would benefit from it.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+</aside>
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+Students should be familiar with:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   React and React components
+-   State and props
+-   The component life-cycle methods
+-   Working with an API
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  Use `create-react-app` to create a new project
+2.  Install `reactstrap` following the instructions [here](https://github.com/reactstrap/reactstrap).
 
-### `npm run eject`
+1.  Make a pull request to submit your work.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Requirements
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Build a sign up form using `create-react-app` and `reactstrap` to collect the name, email, picture, and hidden password for a user. `console.log` what the user's inputs when they submit the form.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Bonus
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Show error messages for incomplete submissions
 
-## Learn More
+You should have:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* One button to get a new joke (append to queue). If there are 10+ jokes in the queue, drop the oldest one.
+* One button to advance to the next joke.
+* One button to revert to the previous joke.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## [License](LICENSE)
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
+    alternative licensing, please contact legal@ga.co.
