@@ -8,6 +8,8 @@
 .Home img {
   display: flex;
   margin: auto;
+  margin-bottom: 1em;
+  width: 150px;
 }
 
 .screen {
@@ -18,9 +20,9 @@
 /********* SIGN UP **********/
 
 .sign-up-form {
-  margin: auto;
-  border: 2px solid #e51b24;
+  border: 2px solid #00d4b9;
   border-radius: .5em;
+  margin: auto;
   width: 50%;
 }
 
@@ -39,7 +41,7 @@ label {
 }
 
 .sign-in-button {
-  background-color: #e51b24;
+  background-color: #00d4b9;
   border: none;
   color: white;
   font-weight: 600;
@@ -53,6 +55,6 @@ label {
 }
 
 .file-upload {
-  width: 40%;
   padding-top: 1em;
+  width: 40%;
 }

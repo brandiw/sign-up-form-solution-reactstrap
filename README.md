@@ -1,6 +1,10 @@
 # Lab: Sign up Form
 
-This lab uses what students have learned so far to create a sign up form using `reactstrap`. In the starter code, you'll find a `create-react-app` project with `reactstrap` installed and a linter fully setup to help stop bugs in their tracks!
+Forms are something you will frequently use in `React.js`.
+
+This lab uses what students have learned so far to create a sign up form using `reactstrap`.
+
+In the starter code, you'll find a `create-react-app` project with `reactstrap` installed and a linter fully setup to help stop bugs in their tracks!
 
 **Teaching Tip**:
 
@@ -16,13 +20,12 @@ Students should be familiar with:
 
 -   React and React components
 -   File tree and component structure
--   State and props
--   The component life-cycle methods
--   Working with an API
+-   State
+-   Props
 
 ## Instructions
 
-1.  Clone this repo
+1.  Fork and Clone this repo
 2.  `npm i`
 3.  `npm start`
 4.  Complete requirements!
@@ -34,13 +37,25 @@ Build a sign up form using `create-react-app` and `reactstrap` to collect the na
 
 ## Bonus
 
-- Show error messages for incomplete submissions
+- Add custom styles and a "logo" to personalize the site.
+- Show custom error messages for incomplete fields
+- Implement icons to add to your from [React Font Awesome 5](https://github.com/FortAwesome/react-fontawesome)
+
+## Double Bonus
+- Send the image to AWS S3 and return the file link that was uploaded. [Here's a tutorial to get started](https://medium.freecodecamp.org/how-to-set-up-simple-image-upload-with-node-and-aws-s3-84e609248792).
 
 You should have:
 
-* One button to get a new joke (append to queue). If there are 10+ jokes in the queue, drop the oldest one.
-* One button to advance to the next joke.
-* One button to revert to the previous joke.
+* Three text input fields: Name, Email, Password
+* File upload question
+* One Button to Submit
+* Submit should have a listener event that triggers a function and `console.log`s the user's input and the blob for the image.
+
+## Hints!
+
+- Check out `reactstrap`'s [documentation](https://github.com/reactstrap/reactstrap).
+- React.js [cheatsheet](https://devhints.io/react)
+- Google "`reactstrap` tutorial" and see what you find!
 
 ## [License](LICENSE)
 

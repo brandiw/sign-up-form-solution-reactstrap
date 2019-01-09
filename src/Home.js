@@ -3,7 +3,7 @@ import {
   Container, Row, FormGroup, Label, CustomInput, Form,
 } from 'reactstrap'
 import { TextInput, DefaultButton } from './components'
-import Logo from './assets/generalassembly-logo.png'
+import Logo from './assets/holly-logo-1000-web.png'
 import './App.css'
 
 class Home extends Component {
