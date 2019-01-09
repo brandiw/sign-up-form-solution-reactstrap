@@ -22,6 +22,8 @@ Students should be familiar with:
 -   File tree and component structure
 -   State
 -   Props
+-   Unidirectional dataflow
+-   Using documentation
 
 ## Instructions
 
